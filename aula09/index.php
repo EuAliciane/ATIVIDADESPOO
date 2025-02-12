@@ -18,6 +18,7 @@
         $l[1] = new Livro ("A Escada do Cláustro", "Guigo Cartuno", 200, $p[1]);
         //print_r($l[1]);
         //print_r($l[0]);
+<<<<<<< HEAD
         //$l[0]->abrir();
        // $l[0]->folhear(1000);
        // $l[0]->detalhes();
@@ -25,6 +26,13 @@
         //$l[0]->detalhes();
         $p[1]->fazerAniver();
         $p[0]->fazerAniver();
+=======
+        $l[0]->abrir();
+        $l[0]->folhear(1000);
+        $l[0]->detalhes();
+        //$l[0]->voltarPag();
+        //$l[0]->detalhes();
+>>>>>>> 6f279b12fb71cc3d5b6eb838eaf1185aa37188c8
         ?></pre>
     </body>
 </html>

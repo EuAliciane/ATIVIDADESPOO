@@ -27,6 +27,10 @@
         $l[1]->perderLuta($l[1]);
         $l[1]->perderLuta($l[1]);
         $l[1]->status();
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 6f279b12fb71cc3d5b6eb838eaf1185aa37188c8
         ?>
         </pre>
     </body>

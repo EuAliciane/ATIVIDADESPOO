@@ -36,7 +36,11 @@ class Luta {
                     $this->desafiante->perderLuta();
                     break;
                 case 2: //ganhou desafiante
+<<<<<<< HEAD
                     echo "</br>{$this->desafiante->getNome()} venceu";
+=======
+                    echo "</br>{$this->desafiante->getNome()}";
+>>>>>>> 6f279b12fb71cc3d5b6eb838eaf1185aa37188c8
                     $this->desafiante->ganharLuta();
                     $this->desafiado->perderLuta();
                     break;

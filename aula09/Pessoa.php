@@ -8,9 +8,13 @@ class Pessoa{
     //Método
     public function fazerAniver() {
         $this->idade = $this->idade + 1;
+<<<<<<< HEAD
         echo "</br>" . $this->nome . " tem " . $this->idade . " anos.";
     }
     //Métodos especiais
+=======
+    }
+>>>>>>> 6f279b12fb71cc3d5b6eb838eaf1185aa37188c8
     public function __construct($nome, $idade, $sexo) {
         $this->nome = $nome;
         $this->idade = $idade;
